@@ -1,30 +1,29 @@
 title: Stackbit Azimuth Theme
 baseURL: /
 params:
-  palette: blue
-  header:
-    title: Azimuth
-    logo_img: images/logo.png
+  footer:
+    content: '&copy; Stackbit. All rights reserved.'
     has_nav: true
+    has_social: true
+    has_subscribe: true
+    links:
+      - new_window: true
+        text: Made with Stackbit
+        url: 'https://www.stackbit.com'
+    logo_img: /images/sorrento.jpg
+    nav_title: Company
+    social_title: Community
+    subscribe_content: Stay up to date with our latest developments.
+    subscribe_title: Subscribe
+    tagline: SaaS theme by Stackbit
+  header:
+    has_nav: true
+    logo_img: /images/sorrento.jpg
+    title: Azimuth
     menu:
       actions:
         - label: Sign Up
           url: /signup
-  footer:
-    logo_img: images/logo_alt.png
-    tagline: SaaS theme by Stackbit
-    has_nav: true
-    nav_title: Company
-    has_social: true
-    social_title: Community
-    has_subscribe: true
-    subscribe_title: Subscribe
-    subscribe_content: Stay up to date with our latest developments.
-    content: '&copy; Stackbit. All rights reserved.'
-    links:
-      - text: Made with Stackbit
-        url: 'https://www.stackbit.com'
-        new_window: true
 disableKinds:
   - RSS
   - taxonomy
