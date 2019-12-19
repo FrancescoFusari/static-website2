@@ -2,27 +2,27 @@ title: Stackbit Azimuth Theme
 baseURL: /
 params:
   footer:
-    content: '&copy; Stackbit. All rights reserved.'
+    content: 'Made by '
     has_nav: true
     has_social: true
     has_subscribe: true
     links:
       - new_window: true
-        text: Made with Stackbit
-        url: 'https://www.stackbit.com'
-    logo_img: /images/sorrento.jpg
-    nav_title: Company
-    social_title: Community
-    subscribe_content: Stay up to date with our latest developments.
+        text: '@francescofusari'
+        url: 'https://www.linkedin.com/in/francesco-fusari-711a6b197/'
+    logo_img: ''
+    nav_title: Products
+    social_title: Connect with us
+    subscribe_content: Stay up to date with our latest promotions!
     subscribe_title: Subscribe
-    tagline: SaaS theme by Stackbit
+    tagline: Sorrento Import APS
   header:
     has_nav: true
-    logo_img: /images/sorrento.jpg
-    title: Azimuth
+    logo_img: ''
+    title: Sorrento Import Aps
     menu:
       actions:
-        - label: Sign Up
+        - label: Contact us
           url: /signup
 disableKinds:
   - RSS
